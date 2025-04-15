@@ -1,0 +1,37 @@
+# Futu API Configuration
+
+# API Connection
+FUTU_API_HOST: "127.0.0.1"
+FUTU_API_PORT: 11111
+FUTU_API_UNLOCK_PASSWORD: ""  # Fill in your password here
+
+# Trading Parameters
+INITIAL_CAPITAL: 100000
+COMMISSION_RATE: 0.0003  # 0.03%
+SLIPPAGE: 0.0001  # 0.01%
+
+# Risk Management
+MAX_POSITION_SIZE: 0.2  # Maximum position size as a fraction of portfolio
+STOP_LOSS_PCT: 0.05  # Default stop loss percentage
+MAX_DRAWDOWN_PCT: 0.15  # Maximum allowed drawdown before stopping trading
+
+# Trading Session (Hong Kong Market)
+MARKET_OPEN_TIME: "09:30:00"
+MARKET_CLOSE_TIME: "16:00:00"
+TRADING_DAYS: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+
+# Notification Settings
+ENABLE_EMAIL_NOTIFICATIONS: false
+SMTP_SERVER: "smtp.gmail.com"
+SMTP_PORT: 587
+SMTP_USER: ""
+SMTP_PASSWORD: ""
+NOTIFICATION_EMAIL: ""
+
+# Symbols to Trade
+SYMBOLS:
+  - "0700.HK"  # Tencent
+  - "9988.HK"  # Alibaba
+  - "0388.HK"  # HKEX
+  - "0001.HK"  # CK Hutchison
+  - "0005.HK"  # HSBC

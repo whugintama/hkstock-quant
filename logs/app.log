@@ -1,0 +1,530 @@
+2025-04-15 17:47:32,746 - BacktestExample - INFO - Starting backtest example
+2025-04-15 17:47:32,746 - BacktestEngine - INFO - Initialized backtesting engine for 3 symbols from 2022-01-01 to 2023-01-01
+2025-04-15 17:47:32,746 - BacktestExample - INFO - Running backtest
+2025-04-15 17:47:32,746 - BacktestEngine - INFO - Fetching historical data
+2025-04-15 17:47:32,746 - DataFetcher - INFO - Fetching data from akshare for 0700.HK
+2025-04-15 17:47:33,287 - DataFetcher - INFO - Data saved to cache: /Users/wangjing/CascadeProjects/hkstock-quant/data/raw/0700.HK_1d_2022-01-01_2023-01-01.csv
+2025-04-15 17:47:33,291 - BacktestEngine - INFO - Fetched 246 data points for 0700.HK
+2025-04-15 17:47:33,291 - DataFetcher - INFO - Fetching data from akshare for 9988.HK
+2025-04-15 17:47:33,629 - DataFetcher - INFO - Data saved to cache: /Users/wangjing/CascadeProjects/hkstock-quant/data/raw/9988.HK_1d_2022-01-01_2023-01-01.csv
+2025-04-15 17:47:33,633 - BacktestEngine - INFO - Fetched 246 data points for 9988.HK
+2025-04-15 17:47:33,633 - DataFetcher - INFO - Fetching data from akshare for 0388.HK
+2025-04-15 17:47:34,144 - DataFetcher - INFO - Data saved to cache: /Users/wangjing/CascadeProjects/hkstock-quant/data/raw/0388.HK_1d_2022-01-01_2023-01-01.csv
+2025-04-15 17:47:34,148 - BacktestEngine - INFO - Fetched 246 data points for 0388.HK
+2025-04-15 17:47:34,148 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,148 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,149 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,149 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,150 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,150 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,151 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,151 - BacktestEngine - INFO - Running trading simulation
+2025-04-15 17:47:34,151 - BacktestEngine - INFO - Buy 100 shares of 9988.HK at 112.97596309999999
+2025-04-15 17:47:34,152 - BacktestEngine - INFO - Buy 100 shares of 0700.HK at 434.7205862999999
+2025-04-15 17:47:34,153 - BacktestEngine - INFO - Buy 99 shares of 0388.HK at 430.41978979999993
+2025-04-15 17:47:34,155 - BacktestEngine - INFO - Sell 99 shares of 0388.HK at 400.9345641
+2025-04-15 17:47:34,156 - BacktestEngine - INFO - Sell 100 shares of 9988.HK at 107.445447
+2025-04-15 17:47:34,157 - BacktestEngine - INFO - Sell 100 shares of 0700.HK at 391.58372430000003
+2025-04-15 17:47:34,166 - BacktestEngine - INFO - Buy 100 shares of 9988.HK at 109.01350459999999
+2025-04-15 17:47:34,167 - BacktestEngine - INFO - Buy 100 shares of 0700.HK at 345.73198659999997
+2025-04-15 17:47:34,168 - BacktestEngine - INFO - Buy 100 shares of 0388.HK at 330.64181149999996
+2025-04-15 17:47:34,168 - BacktestEngine - INFO - Sell 100 shares of 0700.HK at 324.1182573
+2025-04-15 17:47:34,171 - BacktestEngine - INFO - Sell 100 shares of 9988.HK at 86.4192942
+2025-04-15 17:47:34,172 - BacktestEngine - INFO - Sell 100 shares of 0388.HK at 323.194482
+2025-04-15 17:47:34,181 - BacktestEngine - INFO - Buy 100 shares of 0388.HK at 270.69252209999996
+2025-04-15 17:47:34,181 - BacktestEngine - INFO - Buy 100 shares of 0700.HK at 267.48832109999995
+2025-04-15 17:47:34,182 - BacktestEngine - INFO - Buy 100 shares of 9988.HK at 89.53995049999999
+2025-04-15 17:47:34,184 - BacktestEngine - INFO - Calculating performance metrics
+2025-04-15 17:47:34,190 - BacktestEngine - INFO - Backtest results:
+2025-04-15 17:47:34,190 - BacktestEngine - INFO - Total Return: -5.00%
+2025-04-15 17:47:34,190 - BacktestEngine - INFO - Annual Return: -5.05%
+2025-04-15 17:47:34,190 - BacktestEngine - INFO - Sharpe Ratio: -0.60
+2025-04-15 17:47:34,190 - BacktestEngine - INFO - Max Drawdown: 16.09%
+2025-04-15 17:47:34,190 - BacktestEngine - INFO - Win Rate: 0.00%
+2025-04-15 17:47:34,190 - BacktestEngine - INFO - Profit Factor: 0.00
+2025-04-15 17:47:34,190 - BacktestEngine - INFO - Total Trades: 15
+2025-04-15 17:47:34,190 - BacktestExample - INFO - Backtest completed
+2025-04-15 17:47:34,190 - BacktestExample - INFO - Total Return: -5.00%
+2025-04-15 17:47:34,190 - BacktestExample - INFO - Annual Return: -5.05%
+2025-04-15 17:47:34,190 - BacktestExample - INFO - Sharpe Ratio: -0.60
+2025-04-15 17:47:34,190 - BacktestExample - INFO - Max Drawdown: 16.09%
+2025-04-15 17:47:34,190 - BacktestExample - INFO - Win Rate: 0.00%
+2025-04-15 17:47:34,190 - BacktestExample - INFO - Profit Factor: 0.00
+2025-04-15 17:47:34,190 - BacktestExample - INFO - Total Trades: 15
+2025-04-15 17:47:34,190 - BacktestExample - INFO - Visualizing results
+2025-04-15 17:47:34,296 - Visualizer - INFO - Interactive visualization saved to logs/visualizations/equity_curve.html
+2025-04-15 17:47:34,338 - Visualizer - INFO - Performance metrics visualization saved to logs/visualizations/performance_metrics.html
+2025-04-15 17:47:34,371 - Visualizer - INFO - Trade analysis visualization saved to logs/visualizations/trade_analysis.html
+2025-04-15 17:47:34,373 - Visualizer - INFO - Dashboard saved to logs/visualizations/dashboard.html
+2025-04-15 17:47:34,377 - BacktestEngine - INFO - Results saved to /Users/wangjing/CascadeProjects/hkstock-quant/logs/backtest_MovingAverageStrategy_20250415_174734.json
+2025-04-15 17:47:34,377 - BacktestExample - INFO - Results saved to /Users/wangjing/CascadeProjects/hkstock-quant/logs/backtest_MovingAverageStrategy_20250415_174734.json
+2025-04-15 17:47:34,377 - BacktestExample - INFO - Visualizations saved to logs/visualizations/
+2025-04-15 17:47:34,377 - BacktestExample - INFO - Optimizing strategy parameters
+2025-04-15 17:47:34,377 - BacktestEngine - INFO - Optimizing strategy parameters for sharpe_ratio
+2025-04-15 17:47:34,377 - MovingAverageStrategy - INFO - Optimizing parameters with 48 combinations
+2025-04-15 17:47:34,378 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 10, 'long_window': 40, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,378 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,378 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,378 - MovingAverageStrategy - INFO - Generated 14.0 signals for 0700.HK
+2025-04-15 17:47:34,378 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,379 - MovingAverageStrategy - INFO - Generated 14.0 signals for 9988.HK
+2025-04-15 17:47:34,379 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,380 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,382 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 10, 'long_window': 40, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,382 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,382 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,383 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,383 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,384 - MovingAverageStrategy - INFO - Generated 18.0 signals for 9988.HK
+2025-04-15 17:47:34,384 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,384 - MovingAverageStrategy - INFO - Generated 14.0 signals for 0388.HK
+2025-04-15 17:47:34,386 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 10, 'long_window': 50, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,386 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,386 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,387 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,387 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,388 - MovingAverageStrategy - INFO - Generated 14.0 signals for 9988.HK
+2025-04-15 17:47:34,388 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,388 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,390 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 10, 'long_window': 50, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,390 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,390 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,391 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,391 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,392 - MovingAverageStrategy - INFO - Generated 18.0 signals for 9988.HK
+2025-04-15 17:47:34,392 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,392 - MovingAverageStrategy - INFO - Generated 18.0 signals for 0388.HK
+2025-04-15 17:47:34,394 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 10, 'long_window': 60, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,395 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,395 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,395 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,395 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,396 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,396 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,396 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,398 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 10, 'long_window': 60, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,398 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,399 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,399 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,399 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,400 - MovingAverageStrategy - INFO - Generated 18.0 signals for 9988.HK
+2025-04-15 17:47:34,400 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,400 - MovingAverageStrategy - INFO - Generated 14.0 signals for 0388.HK
+2025-04-15 17:47:34,403 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 10, 'long_window': 70, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,403 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,403 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,403 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,403 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,404 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,404 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,404 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,407 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 10, 'long_window': 70, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,407 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,407 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,407 - MovingAverageStrategy - INFO - Generated 18.0 signals for 0700.HK
+2025-04-15 17:47:34,407 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,408 - MovingAverageStrategy - INFO - Generated 14.0 signals for 9988.HK
+2025-04-15 17:47:34,408 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,409 - MovingAverageStrategy - INFO - Generated 14.0 signals for 0388.HK
+2025-04-15 17:47:34,411 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 10, 'long_window': 80, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,411 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,411 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,411 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,411 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,412 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,412 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,413 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,415 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 10, 'long_window': 80, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,415 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,415 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,416 - MovingAverageStrategy - INFO - Generated 6.0 signals for 0700.HK
+2025-04-15 17:47:34,416 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,416 - MovingAverageStrategy - INFO - Generated 18.0 signals for 9988.HK
+2025-04-15 17:47:34,416 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,417 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,419 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 10, 'long_window': 90, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,419 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,419 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,420 - MovingAverageStrategy - INFO - Generated 6.0 signals for 0700.HK
+2025-04-15 17:47:34,420 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,421 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,421 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,421 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,423 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 10, 'long_window': 90, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,423 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,423 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,424 - MovingAverageStrategy - INFO - Generated 6.0 signals for 0700.HK
+2025-04-15 17:47:34,424 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,425 - MovingAverageStrategy - INFO - Generated 18.0 signals for 9988.HK
+2025-04-15 17:47:34,425 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,425 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,427 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 15, 'long_window': 40, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,427 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,427 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,428 - MovingAverageStrategy - INFO - Generated 14.0 signals for 0700.HK
+2025-04-15 17:47:34,428 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,429 - MovingAverageStrategy - INFO - Generated 14.0 signals for 9988.HK
+2025-04-15 17:47:34,429 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,429 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,431 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 15, 'long_window': 40, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,431 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,431 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,432 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,432 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,433 - MovingAverageStrategy - INFO - Generated 18.0 signals for 9988.HK
+2025-04-15 17:47:34,433 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,433 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,435 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 15, 'long_window': 50, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,435 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,435 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,436 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,436 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,437 - MovingAverageStrategy - INFO - Generated 14.0 signals for 9988.HK
+2025-04-15 17:47:34,437 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,437 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,439 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 15, 'long_window': 50, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,439 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,440 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,440 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,440 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,441 - MovingAverageStrategy - INFO - Generated 14.0 signals for 9988.HK
+2025-04-15 17:47:34,441 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,441 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,443 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 15, 'long_window': 60, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,443 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,444 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,444 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,444 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,445 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,445 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,445 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,448 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 15, 'long_window': 60, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,448 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,448 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,448 - MovingAverageStrategy - INFO - Generated 14.0 signals for 0700.HK
+2025-04-15 17:47:34,448 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,449 - MovingAverageStrategy - INFO - Generated 14.0 signals for 9988.HK
+2025-04-15 17:47:34,449 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,450 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,452 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 15, 'long_window': 70, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,452 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,452 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,452 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,452 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,453 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,453 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,454 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,456 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 15, 'long_window': 70, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,456 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,456 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,457 - MovingAverageStrategy - INFO - Generated 6.0 signals for 0700.HK
+2025-04-15 17:47:34,457 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,457 - MovingAverageStrategy - INFO - Generated 14.0 signals for 9988.HK
+2025-04-15 17:47:34,457 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,458 - MovingAverageStrategy - INFO - Generated 14.0 signals for 0388.HK
+2025-04-15 17:47:34,460 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 15, 'long_window': 80, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,460 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,460 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,461 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,461 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,461 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,461 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,462 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,464 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 15, 'long_window': 80, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,464 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,464 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,465 - MovingAverageStrategy - INFO - Generated 6.0 signals for 0700.HK
+2025-04-15 17:47:34,465 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,465 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,465 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,466 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,468 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 15, 'long_window': 90, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,468 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,468 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,469 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,469 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,469 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,469 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,470 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,472 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 15, 'long_window': 90, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,472 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,472 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,473 - MovingAverageStrategy - INFO - Generated 6.0 signals for 0700.HK
+2025-04-15 17:47:34,473 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,473 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,473 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,474 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,476 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 20, 'long_window': 40, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,476 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,476 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,477 - MovingAverageStrategy - INFO - Generated 14.0 signals for 0700.HK
+2025-04-15 17:47:34,477 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,477 - MovingAverageStrategy - INFO - Generated 14.0 signals for 9988.HK
+2025-04-15 17:47:34,477 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,478 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,480 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 20, 'long_window': 40, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,480 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,480 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,481 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,481 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,481 - MovingAverageStrategy - INFO - Generated 14.0 signals for 9988.HK
+2025-04-15 17:47:34,481 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,482 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,484 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 20, 'long_window': 50, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,484 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,484 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,485 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,485 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,485 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,485 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,486 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,488 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 20, 'long_window': 50, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,488 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,488 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,489 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,489 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,489 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,490 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,490 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,492 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 20, 'long_window': 60, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,492 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,492 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,493 - MovingAverageStrategy - INFO - Generated 14.0 signals for 0700.HK
+2025-04-15 17:47:34,493 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,494 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,494 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,494 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,496 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 20, 'long_window': 60, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,496 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,496 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,497 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,497 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,498 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,498 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,498 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,500 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 20, 'long_window': 70, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,500 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,500 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,501 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,501 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,502 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,502 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,502 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,504 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 20, 'long_window': 70, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,504 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,504 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,505 - MovingAverageStrategy - INFO - Generated 6.0 signals for 0700.HK
+2025-04-15 17:47:34,505 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,506 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,506 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,506 - MovingAverageStrategy - INFO - Generated 14.0 signals for 0388.HK
+2025-04-15 17:47:34,508 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 20, 'long_window': 80, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,508 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,508 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,509 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,509 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,510 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,510 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,510 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,512 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 20, 'long_window': 80, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,512 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,512 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,513 - MovingAverageStrategy - INFO - Generated 6.0 signals for 0700.HK
+2025-04-15 17:47:34,513 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,514 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,514 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,514 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,516 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 20, 'long_window': 90, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,516 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,517 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,517 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,517 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,518 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,518 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,518 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,520 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 20, 'long_window': 90, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,521 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,521 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,521 - MovingAverageStrategy - INFO - Generated 6.0 signals for 0700.HK
+2025-04-15 17:47:34,521 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,522 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,522 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,522 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,525 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 25, 'long_window': 40, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,525 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,525 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,525 - MovingAverageStrategy - INFO - Generated 14.0 signals for 0700.HK
+2025-04-15 17:47:34,525 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,526 - MovingAverageStrategy - INFO - Generated 14.0 signals for 9988.HK
+2025-04-15 17:47:34,526 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,526 - MovingAverageStrategy - INFO - Generated 14.0 signals for 0388.HK
+2025-04-15 17:47:34,529 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 25, 'long_window': 40, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,529 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,529 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,529 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,529 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,530 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,530 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,530 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,533 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 25, 'long_window': 50, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,533 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,533 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,533 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,533 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,534 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,534 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,534 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,537 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 25, 'long_window': 50, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,537 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,537 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,537 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,537 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,538 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,538 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,538 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,540 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 25, 'long_window': 60, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,541 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,541 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,541 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,541 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,542 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,542 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,542 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,544 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 25, 'long_window': 60, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,545 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,545 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,545 - MovingAverageStrategy - INFO - Generated 6.0 signals for 0700.HK
+2025-04-15 17:47:34,545 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,546 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,546 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,546 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,548 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 25, 'long_window': 70, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,548 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,548 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,549 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,549 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,550 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,550 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,550 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,552 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 25, 'long_window': 70, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,552 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,553 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,553 - MovingAverageStrategy - INFO - Generated 6.0 signals for 0700.HK
+2025-04-15 17:47:34,553 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,554 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,554 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,554 - MovingAverageStrategy - INFO - Generated 14.0 signals for 0388.HK
+2025-04-15 17:47:34,556 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 25, 'long_window': 80, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,556 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,557 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,557 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,557 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,558 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,558 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,558 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,560 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 25, 'long_window': 80, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,560 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,561 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,561 - MovingAverageStrategy - INFO - Generated 6.0 signals for 0700.HK
+2025-04-15 17:47:34,561 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,562 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,562 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,562 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,564 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 25, 'long_window': 90, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,564 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,564 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,565 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0700.HK
+2025-04-15 17:47:34,565 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,566 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,566 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,566 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,568 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 25, 'long_window': 90, 'ma_type': 'EMA'}
+2025-04-15 17:47:34,568 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,568 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,569 - MovingAverageStrategy - INFO - Generated 6.0 signals for 0700.HK
+2025-04-15 17:47:34,569 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,570 - MovingAverageStrategy - INFO - Generated 10.0 signals for 9988.HK
+2025-04-15 17:47:34,570 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,570 - MovingAverageStrategy - INFO - Generated 6.0 signals for 0388.HK
+2025-04-15 17:47:34,572 - MovingAverageStrategy - INFO - Parameters updated: {'short_window': 20, 'long_window': 50, 'ma_type': 'SMA', 'signal_threshold': 0}
+2025-04-15 17:47:34,572 - MovingAverageStrategy - INFO - Optimized parameters: {'short_window': 20, 'long_window': 40, 'ma_type': 'SMA'}, sharpe_ratio: 1.2543905051776383
+2025-04-15 17:47:34,573 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,573 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,573 - MovingAverageStrategy - INFO - Generated 14.0 signals for 0700.HK
+2025-04-15 17:47:34,573 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,574 - MovingAverageStrategy - INFO - Generated 14.0 signals for 9988.HK
+2025-04-15 17:47:34,574 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,574 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,575 - BacktestEngine - INFO - Running trading simulation
+2025-04-15 17:47:34,577 - BacktestEngine - INFO - Buy 100 shares of 0700.HK at 439.6903511
+2025-04-15 17:47:34,577 - BacktestEngine - INFO - Buy 100 shares of 9988.HK at 110.17326319999998
+2025-04-15 17:47:34,577 - BacktestEngine - INFO - Buy 100 shares of 0388.HK at 397.92502749999994
+2025-04-15 17:47:34,578 - BacktestEngine - INFO - Sell 100 shares of 9988.HK at 114.4862991
+2025-04-15 17:47:34,579 - BacktestEngine - INFO - Sell 100 shares of 0388.HK at 393.325281
+2025-04-15 17:47:34,580 - BacktestEngine - INFO - Sell 100 shares of 0700.HK at 374.8493754
+2025-04-15 17:47:34,583 - BacktestEngine - INFO - Buy 100 shares of 9988.HK at 95.1935985
+2025-04-15 17:47:34,584 - BacktestEngine - INFO - Sell 100 shares of 9988.HK at 85.1171976
+2025-04-15 17:47:34,587 - BacktestEngine - INFO - Buy 100 shares of 0388.HK at 331.9283967999999
+2025-04-15 17:47:34,587 - BacktestEngine - INFO - Buy 100 shares of 0700.HK at 369.50453539999995
+2025-04-15 17:47:34,587 - BacktestEngine - INFO - Buy 100 shares of 9988.HK at 109.01350459999999
+2025-04-15 17:47:34,589 - BacktestEngine - INFO - Sell 100 shares of 0700.HK at 312.9095772
+2025-04-15 17:47:34,591 - BacktestEngine - INFO - Sell 100 shares of 9988.HK at 89.7950151
+2025-04-15 17:47:34,591 - BacktestEngine - INFO - Sell 100 shares of 0388.HK at 332.36580150000003
+2025-04-15 17:47:34,594 - BacktestEngine - INFO - Buy 100 shares of 0700.HK at 287.330043
+2025-04-15 17:47:34,595 - BacktestEngine - INFO - Sell 100 shares of 0700.HK at 264.52530989999997
+2025-04-15 17:47:34,599 - BacktestEngine - INFO - Buy 100 shares of 0700.HK at 263.9318682
+2025-04-15 17:47:34,600 - BacktestEngine - INFO - Buy 100 shares of 0388.HK at 268.0914236
+2025-04-15 17:47:34,600 - BacktestEngine - INFO - Buy 100 shares of 9988.HK at 76.10653049999999
+2025-04-15 17:47:34,603 - BacktestEngine - INFO - Calculating performance metrics
+2025-04-15 17:47:34,606 - BacktestEngine - INFO - Backtest results:
+2025-04-15 17:47:34,606 - BacktestEngine - INFO - Total Return: -7.44%
+2025-04-15 17:47:34,606 - BacktestEngine - INFO - Annual Return: -7.53%
+2025-04-15 17:47:34,606 - BacktestEngine - INFO - Sharpe Ratio: -0.70
+2025-04-15 17:47:34,606 - BacktestEngine - INFO - Max Drawdown: 21.78%
+2025-04-15 17:47:34,606 - BacktestEngine - INFO - Win Rate: 25.00%
+2025-04-15 17:47:34,606 - BacktestEngine - INFO - Profit Factor: 0.03
+2025-04-15 17:47:34,606 - BacktestEngine - INFO - Total Trades: 19
+2025-04-15 17:47:34,606 - BacktestEngine - INFO - Optimization results: {'best_parameters': {'short_window': 20, 'long_window': 40, 'ma_type': 'SMA'}, 'metrics': {'total_return': np.float64(-0.07444536431976012), 'annual_return': np.float64(-0.07528795056689008), 'volatility': np.float64(0.15022470289526085), 'sharpe_ratio': np.float64(-0.7008697540263973), 'max_drawdown': np.float64(0.2177793399217638), 'win_rate': 0.25, 'profit_factor': np.float64(0.026667597584513036), 'total_trades': 19, 'final_equity': np.float64(92555.46356802399)}}
+2025-04-15 17:47:34,606 - BacktestExample - INFO - Optimization completed
+2025-04-15 17:47:34,606 - BacktestExample - INFO - Best parameters: {'short_window': 20, 'long_window': 40, 'ma_type': 'SMA'}
+2025-04-15 17:47:34,606 - BacktestExample - INFO - Sharpe Ratio with optimized parameters: -0.70
+2025-04-15 17:47:34,606 - BacktestExample - INFO - Running backtest with optimized parameters
+2025-04-15 17:47:34,606 - MovingAverageStrategy - INFO - Data set for 3 symbols
+2025-04-15 17:47:34,607 - MovingAverageStrategy - INFO - Generating signals for 0700.HK
+2025-04-15 17:47:34,607 - MovingAverageStrategy - INFO - Generated 14.0 signals for 0700.HK
+2025-04-15 17:47:34,607 - MovingAverageStrategy - INFO - Generating signals for 9988.HK
+2025-04-15 17:47:34,608 - MovingAverageStrategy - INFO - Generated 14.0 signals for 9988.HK
+2025-04-15 17:47:34,608 - MovingAverageStrategy - INFO - Generating signals for 0388.HK
+2025-04-15 17:47:34,608 - MovingAverageStrategy - INFO - Generated 10.0 signals for 0388.HK
+2025-04-15 17:47:34,608 - BacktestEngine - INFO - Running trading simulation
+2025-04-15 17:47:34,611 - BacktestEngine - INFO - Buy 100 shares of 0700.HK at 439.6903511
+2025-04-15 17:47:34,611 - BacktestEngine - INFO - Buy 100 shares of 9988.HK at 110.17326319999998
+2025-04-15 17:47:34,611 - BacktestEngine - INFO - Buy 100 shares of 0388.HK at 397.92502749999994
+2025-04-15 17:47:34,612 - BacktestEngine - INFO - Sell 100 shares of 9988.HK at 114.4862991
+2025-04-15 17:47:34,612 - BacktestEngine - INFO - Sell 100 shares of 0388.HK at 393.325281
+2025-04-15 17:47:34,613 - BacktestEngine - INFO - Sell 100 shares of 0700.HK at 374.8493754
+2025-04-15 17:47:34,616 - BacktestEngine - INFO - Buy 100 shares of 9988.HK at 95.1935985
+2025-04-15 17:47:34,617 - BacktestEngine - INFO - Sell 100 shares of 9988.HK at 85.1171976
+2025-04-15 17:47:34,620 - BacktestEngine - INFO - Buy 100 shares of 0388.HK at 331.9283967999999
+2025-04-15 17:47:34,620 - BacktestEngine - INFO - Buy 100 shares of 0700.HK at 369.50453539999995
+2025-04-15 17:47:34,620 - BacktestEngine - INFO - Buy 100 shares of 9988.HK at 109.01350459999999
+2025-04-15 17:47:34,623 - BacktestEngine - INFO - Sell 100 shares of 0700.HK at 312.9095772
+2025-04-15 17:47:34,624 - BacktestEngine - INFO - Sell 100 shares of 9988.HK at 89.7950151
+2025-04-15 17:47:34,624 - BacktestEngine - INFO - Sell 100 shares of 0388.HK at 332.36580150000003
+2025-04-15 17:47:34,627 - BacktestEngine - INFO - Buy 100 shares of 0700.HK at 287.330043
+2025-04-15 17:47:34,628 - BacktestEngine - INFO - Sell 100 shares of 0700.HK at 264.52530989999997
+2025-04-15 17:47:34,633 - BacktestEngine - INFO - Buy 100 shares of 0700.HK at 263.9318682
+2025-04-15 17:47:34,633 - BacktestEngine - INFO - Buy 100 shares of 0388.HK at 268.0914236
+2025-04-15 17:47:34,633 - BacktestEngine - INFO - Buy 100 shares of 9988.HK at 76.10653049999999
+2025-04-15 17:47:34,636 - BacktestEngine - INFO - Calculating performance metrics
+2025-04-15 17:47:34,639 - BacktestEngine - INFO - Backtest results:
+2025-04-15 17:47:34,639 - BacktestEngine - INFO - Total Return: -7.44%
+2025-04-15 17:47:34,639 - BacktestEngine - INFO - Annual Return: -7.53%
+2025-04-15 17:47:34,639 - BacktestEngine - INFO - Sharpe Ratio: -0.70
+2025-04-15 17:47:34,639 - BacktestEngine - INFO - Max Drawdown: 21.78%
+2025-04-15 17:47:34,639 - BacktestEngine - INFO - Win Rate: 25.00%
+2025-04-15 17:47:34,639 - BacktestEngine - INFO - Profit Factor: 0.03
+2025-04-15 17:47:34,639 - BacktestEngine - INFO - Total Trades: 19
+2025-04-15 17:47:34,639 - BacktestExample - INFO - Visualizing optimized results
+2025-04-15 17:47:34,641 - Visualizer - INFO - Dashboard saved to logs/visualizations/optimized_dashboard.html
+2025-04-15 17:47:34,641 - BacktestExample - INFO - Optimized results dashboard saved to logs/visualizations/optimized_dashboard.html

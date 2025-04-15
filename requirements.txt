@@ -1,0 +1,44 @@
+# Data handling and analysis
+pandas>=1.5.3
+numpy>=1.24.3
+scipy>=1.10.1
+pytz>=2023.3
+
+# Backtesting
+backtesting>=0.3.3
+backtrader>=1.9.76.123
+
+# Data sources
+yfinance>=0.2.18
+akshare>=1.10.0  # For China/HK market data
+pandas-datareader>=0.10.0
+requests>=2.29.0
+
+# Visualization
+matplotlib>=3.7.1
+seaborn>=0.12.2
+plotly>=5.14.1
+dash>=2.9.3
+
+# Trading APIs
+futu-api>=7.1.3300  # Futu API for HK stocks
+alpaca-py>=0.8.2  # Alternative trading API
+
+# Machine Learning
+scikit-learn>=1.2.2
+statsmodels>=0.14.0
+tensorflow>=2.12.0
+keras>=2.12.0
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+python-dotenv>=1.0.0
+schedule>=1.2.0
+
+# Testing
+pytest>=7.3.1
+
+# Web interface
+flask>=2.3.2
+flask-restful>=0.3.10
